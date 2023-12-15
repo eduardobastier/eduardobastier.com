@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Marck+Script&display=swap');
 
 :root {
     --cor-azul-principal: #4263EB;
@@ -77,8 +77,8 @@ p#ola {
 }
 
 h1 {
-    font-family: 'Delicious Handrawn', cursive;
-    font-size: 22px;
+    font-family: 'Marck Script', cursive;
+    font-size: 26px;
     margin-bottom: 2px;
     margin-top: 0px;
 }
