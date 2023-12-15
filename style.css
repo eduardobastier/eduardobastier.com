@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+
+:root {
+    --cor-azul-principal: #4263EB;
+    --cor-azul-secundaria: #3e7cb1;
+    --cor-gray-principal: #F8F9FA;
+    --cor-gray-secundaria: #DEE2E6;
+}
+
+* {
+    font-family: 'Google Sans';
+}
+
+body {
+    background-color: var(--cor-gray-principal);
+    margin: 10px;
+}
+
+nav {
+   margin: 30px auto 40px auto;
+
+}
+
+nav > a {
+    background-color: var(--cor-azul-principal);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #4264ebde;
+}
+
+section {
+    background-color: white;
+    border: solid 1px var(--cor-gray-secundaria);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 250px;
+    min-width: 100px;
+    padding: 30px 8px 8px 8px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border: solid 1px var(--cor-gray-secundaria);
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 10px;
+    margin: 20px auto 30px;
+}
+
+p#ola {
+    font-size: 20px;
+}
+
+.perfil img {
+    border-radius: 10px;
+    max-width:170px;
+    margin-bottom: 10px;
+}
+
+.social {
+    margin: 0px;
+    min-width: 30px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 22px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+footer {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 12px;
+    text-align: center;
+}
