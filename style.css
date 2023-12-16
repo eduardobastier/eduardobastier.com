@@ -71,8 +71,9 @@ p#ola {
 }
 
 .social {
+    color: var(--cor-azul-principal);
+    font-size: 35px;
     margin: 0px;
-    min-width: 30px;
     padding: 10px;
 }
 
