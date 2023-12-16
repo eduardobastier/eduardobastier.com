@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Marck+Script&display=swap');
 
 :root {
-    --cor-azul-principal: #4263EB;
-    --cor-azul-secundaria: #3e7cb1;
-    --cor-gray-principal: #F8F9FA;
-    --cor-gray-secundaria: #DEE2E6;
+    --azul: #4263eb;
+    --azul-hover: #4264ebd5;
+    --gray: #F8F9FA;
+    --gray-secundario: #DEE2E6;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--cor-gray-principal);
+    background-color: var(--gray);
     margin: 10px;
 }
 
@@ -24,7 +24,7 @@ nav {
 }
 
 nav > a {
-    background-color: var(--cor-azul-principal);
+    background-color: var(--azul);
     border-radius: 5px;
     color: white;
     font-size: 12px;
@@ -35,13 +35,12 @@ nav > a {
 }
 
 nav > a:hover {
-    text-decoration: underline;
-    background-color: #4264ebde;
+    background-color: var(--azul-hover);
 }
 
 section {
     background-color: white;
-    border: solid 1px var(--cor-gray-secundaria);
+    border: solid 1px var(--gray-secundario);
     border-radius: 10px;
     margin: auto;
     max-width: 250px;
@@ -52,7 +51,7 @@ section {
 
 main {
     background-color: white;
-    border: solid 1px var(--cor-gray-secundaria);
+    border: solid 1px var(--gray-secundario);
     border-radius: 10px;
     min-width: 320px;
     max-width: 800px;
@@ -71,10 +70,14 @@ p#ola {
 }
 
 .social {
-    color: var(--cor-azul-principal);
+    color: var(--azul);
     font-size: 35px;
     margin: 0px;
     padding: 10px;
+}
+
+.social:hover {
+    color: var(--azul-hover);
 }
 
 h1 {
