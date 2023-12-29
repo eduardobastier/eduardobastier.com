@@ -3,10 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-    --azul: #4263eb;
-    --azul-hover: #4264ebd5;
-    --gray: #F8F9FA;
-    --gray-secundario: #DEE2E6;
+    --dark: #2D2F31;
+    --brown: #BC835E;
 }
 
 * {
@@ -14,18 +12,17 @@
 }
 
 body {
+    background-color: var(--dark);
     margin: 10px;
 }
- 
-/* NAV */
 
 nav,
 .nav-links {
    display: flex;
-
 }
 
 nav {
+    margin-bottom: 50px;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
@@ -38,41 +35,38 @@ nav {
 }
 
 a {
-    color: black;
+    color: lightgray;
     text-decoration: none;
 }
 
 a:hover {
+    color: var(--brown);
     text-decoration: underline;
-    color: var(--azul);
     text-underline-offset: 0.3rem;
 }
 
 .logo {
-    color: var(--azul);
-    font-size: 1.5rem;
-    font-weight: 500;
+    color: var(--brown);
+    text-shadow: rgba(0, 0, 0, 0.300) 0.1em 0.1em 0.2em;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 section {
-    background-color: white;
-    border: solid 2px gray;
-    border-radius: 30px;
     margin: auto;
-    max-width: 250px;
-    min-width: 100px;
+    margin-bottom: 100px;
+    max-width: 500px;
     padding: 30px 8px 8px 8px;
     text-align: center;
 }
 
-.texto-azul {
-    color: var(--azul);
+.name {
+    color: var(--brown);
+    text-shadow: rgba(0, 0, 0, 0.300) 0.1em 0.1em 0.2em;
 }
 
 main {
-    background-color: white;
-    border: solid 2px gray;
-    border-radius: 20px;
+    color: lightgray;
     line-height: 1.5em;
     min-width: 320px;
     max-width: 800px;
@@ -80,31 +74,23 @@ main {
     margin: 20px auto 30px;
 }
 
-p#ola {
+h1 {
+    text-align: center;
+    color: lightgray;
     font-size: 20px;
     font-weight: 600;
 }
 
-.perfil img {
-    border: solid 3px var(--gray-secundario);
-    border-radius: 30px;
-    max-width:170px;
+.profile img {
+    border: 5px solid var(--brown);
+    box-shadow: rgba(0, 0, 0, 0.300) 0.2em 0.2em 0.7em;
+    border-radius: 200px;
+    max-width:270px;
     margin-bottom: 10px;
 }
 
-.social {
-    color: var(--azul);
-    font-size: 35px;
-    margin: 0px;
-    padding: 10px;
-}
-
-.social:hover {
-    color: var(--azul-hover);
-}
-
 h1 {
-    color: var(--azul);
+    color: lightgray;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 2px;
@@ -112,17 +98,44 @@ h1 {
 }
 
 h2 {
+    color: rgba(211, 211, 211, 0.882);
     font-size: 15px;
     font-weight: 500;
+    margin: 10px;
+}
+
+.social {
+    text-shadow: rgba(0, 0, 0, 0.300) 0.2em 0.2em 0.3em;
+    color: var(--brown);
+    font-size: 35px;
     margin: 0px;
+    padding: 10px;
 }
 
-p {
+.social:hover {
+    color: #bc845ea8;
+}
+
+h4 {
+    color: lightgray;
+    text-align: center;
+}
+
+h3 {
+    text-shadow: rgba(0, 0, 0, 0.300) 0.1em 0.1em 0.2em;
+    color: var(--brown);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.p-about {
     text-align: justify;
+    text-indent: 30px;
 }
-
 
 footer {
+    color:gray;
     margin-top: 5%;
     margin-bottom: 3%;
     font-size: 12px;
@@ -130,10 +143,11 @@ footer {
 }
 
 footer > a {
+    color: gray;
     text-decoration: none;
 }
 
 footer > a:hover {
-    color: var(--azul);
+    color: var(--brown);
     text-decoration: underline;
 }
