@@ -23,37 +23,39 @@ body {
     margin: 20px;
 }
 
-nav {
+.menu-desktop {
     margin-bottom: 30px;
 }
 
-.menu-desktop, .ul-desktop {
+.menu-desktop,
+.menu-desktop ul {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-size: 1.3rem;
     gap: 2rem;
     height: 17vh;
     list-style: none;
-    justify-content: space-around;
-    align-items: center;
+
 }
 
-a {
+.menu-desktop .logo {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.menu-desktop a {
     color: var(--primary-color);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
-a:hover, 
+.menu-desktop a:hover, 
 .menu-mobile nav ul li a:hover {
     color: var(--secondary-color);
     text-decoration: underline;
     text-underline-offset: 0.3rem;
-}
-
-.logo {
-    color: var(--secondary-color);
-    font-size: 1.8rem;
-    font-weight: 600;
 }
 
 section {
@@ -85,14 +87,14 @@ main {
     margin-bottom: 10px;
 }
 
-h1 {
+h2 {
     color: var(--primary-color);
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-h2 {
+h3 {
     color: var(--primary-color-02);
     font-size: 15px;
     font-weight: 500;
@@ -104,7 +106,7 @@ h2 {
     font-size: 2rem;
     margin: 0px;
     padding: 12px;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .social:hover {
@@ -113,12 +115,6 @@ h2 {
 }
 
 h4 {
-    color: var(--primary-color);
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-h3 {
     color: var(--secondary-color);
     text-align: center;
     font-size: 2.5rem;
@@ -142,7 +138,7 @@ footer {
 footer > a {
     color: var(--tertiary-color);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 footer > a:hover {
