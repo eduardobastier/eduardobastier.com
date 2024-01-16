@@ -40,6 +40,7 @@ nav {
 a {
     color: var(--primary-color);
     text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 a:hover, 
@@ -103,10 +104,12 @@ h2 {
     font-size: 2rem;
     margin: 0px;
     padding: 12px;
+    transition: all 300ms ease-in-out;
 }
 
 .social:hover {
     color: var(--secondary-color-02);
+    transform: translateY(-6px);
 }
 
 h4 {
@@ -139,6 +142,7 @@ footer {
 footer > a {
     color: var(--tertiary-color);
     text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 footer > a:hover {
