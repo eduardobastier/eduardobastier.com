@@ -13,12 +13,29 @@
 
     <body>
 
-        <nav class="menu-desktop">
+        <nav class="desktop-nav">
             <h1 class="logo">Eduardo Bastier</h1>
-            <ul class="ul-desktop">
-                <li id="home-link"><a href="#Home">Início</a></li>
-                <li id="project-link"><a href="#Project">Projetos</a></li>
+            <ul class="desktop-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+            <h1 class="logo">Eduardo Bastier</h1>
+            <div class="mobile-menu">
+                <div class="mobile-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>                
+                <div class="mobile-links">
+                    <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Projetos</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+                </div>
+            </div>
         </nav>
 
         <section>
@@ -49,6 +66,8 @@
         </main>
 
         <footer>Copyright © 2023 <a href="https://github.com/eduardobastier" target="_blank">Eduardo Bastier </a>All Rights Reserved.</footer>
+
+        <script src="assets/script.js"></script>
     </body>
 
 </html>

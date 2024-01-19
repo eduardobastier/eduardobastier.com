@@ -1,6 +1,6 @@
-@charset @charset "UTF-8";
+@charset "UTF-8";
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     :root {
         font-size: 14px;
@@ -10,7 +10,11 @@
        font-size: 1rem;
     }
 
-    #home-link {
+    .desktop-nav {
         display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
     }
 }
