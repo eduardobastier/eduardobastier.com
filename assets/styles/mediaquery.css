@@ -17,4 +17,13 @@
     .mobile-nav {
         display: flex;
     }
+
+    .social {
+        cursor: default;
+    }
+
+    .social:hover {
+        color: #bb835d;
+        transform: none;
+    }
 }

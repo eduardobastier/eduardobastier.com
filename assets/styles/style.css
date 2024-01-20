@@ -73,7 +73,6 @@ nav,
     justify-content: space-between;
     height: 24px;
     width: 30px;
-    cursor: pointer;
 }
 
 .mobile-nav li {
@@ -109,7 +108,13 @@ nav,
     font-size: 1.5rem;
     color: var(--primary-color);
     text-decoration: none;
+    cursor: default;
     transition: all 200ms ease-in-out;
+}
+
+.mobile-links a:active,
+.mobile-links a:hover {
+    background-color: #2F3034;
 }
 
 .mobile-links li {
