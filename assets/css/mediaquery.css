@@ -15,7 +15,7 @@
     }
 
     .social:hover {
-        color: #bb835d;
+        color: var(--secondary-color);
         transform: none;
     }
 }

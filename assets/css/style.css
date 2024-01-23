@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-    --backgroung-color: #202124;
+    --backgroung-color: #000000;
     --primary-color: #d3d3d3;
     --primary-color-02: #d3d3d3e1;
-    --secondary-color: #bb835d;
-    --secondary-color-02: #bc845ea8;
+    --secondary-color: #d79264;
+    --secondary-color-02: #d79264a8;
     --tertiary-color: #a9a9a9;
 }
 
@@ -20,6 +20,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--backgroung-color);
+    background-image: url(../img/bg.svg);
+    background-attachment: fixed;
+    background-position: center top;
     margin: 20px;
 }
 
