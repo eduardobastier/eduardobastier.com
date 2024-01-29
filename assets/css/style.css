@@ -157,9 +157,18 @@ nav,
 }
 
 .home {
-    margin: auto;
-    padding: 30px 8px 8px 8px;
-    text-align: center;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.hello {
+    align-items: center;
 }
 
 .name {
@@ -178,14 +187,14 @@ nav,
 
 h2 {
     color: var(--primary-color);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
 h3 {
     color: var(--primary-color-02);
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight: 500;
     margin-bottom: 12px;
 }
