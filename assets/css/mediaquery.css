@@ -37,8 +37,13 @@
         transform: none;
     }
 
-    button:hover {
-        background-color: var(--secondary-color);
+    article:hover {
+        border: 2px solid var(--tertiary-color);
+    }
+
+    button:hover,
+    .contact button:hover {
+        background-color: var(--tertiary-color);
         transform: none;
     }
 }

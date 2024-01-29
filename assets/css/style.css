@@ -264,7 +264,7 @@ article img {
 }
 
 button {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     padding: .8rem;
     border: none;
     border-radius: 20px;
@@ -273,9 +273,17 @@ button {
 }
 
 button:hover {
-    background-color: var(--secondary-color-02);
+    background-color: var(--secondary-color);
     transform: translateY(-6px);
     
+}
+
+.contact button {
+    background-color: var(--tertiary-color);
+}
+
+.contact button:hover {
+    background-color: var(--secondary-color);
 }
 
 footer {
