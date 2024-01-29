@@ -23,7 +23,7 @@ body {
     background-image: url(../img/bg.svg);
     background-attachment: fixed;
     background-position: center top;
-    margin: 20px;
+    margin: 10px;
 }
 
 .desktop-nav,
@@ -152,24 +152,14 @@ nav,
     transform: none;
 }
 
-section {
+.home {
     margin: auto;
-    margin-bottom: 100px;
     padding: 30px 8px 8px 8px;
     text-align: center;
 }
 
 .name {
     color: var(--secondary-color);
-}
-
-main {
-    color: var(--primary-color);
-    line-height: 1.8rem;
-    min-width: 280px;
-    max-width: 800px;
-    padding: 10px;
-    margin: 20px auto 30px;
 }
 
 .profile img {
@@ -199,7 +189,6 @@ h3 {
 .social {
     color: var(--secondary-color);
     font-size: 2rem;
-    margin: 0px;
     padding: 12px;
     transition: all 200ms ease-in-out;
 }
@@ -209,17 +198,48 @@ h3 {
     transform: translateY(-6px);
 }
 
+main {
+    color: var(--primary-color);
+    line-height: 1.8rem;
+    min-width: 280px;
+    max-width: 800px;
+    padding: 10px;
+    margin: 20px auto 30px;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
 h4 {
     color: var(--secondary-color);
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 12px;
+    margin: 6rem 0 3rem 0;
 }
 
-.p-about {
-    padding: 20px;
-    text-align: justify;
+h5 {
     font-size: 1.2rem;
+    margin: 1rem;
+}
+
+article {
+    border: 2px solid var(--tertiary-color);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+article:hover {
+    border: 2px solid var(--secondary-color);
+}
+
+article img {
+    margin: auto;
+    max-width: 100%;
+    margin-top: 1.5rem;
 }
 
 footer {

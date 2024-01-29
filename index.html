@@ -30,15 +30,15 @@
                     <span></span>
                     <span></span>
                 </div>                
-                <div class="mobile-links">
+                <menu class="mobile-links">
                     <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
                     <li><a href="#project" onclick="toggleMenu()">Projetos</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
-                </div>
+                </menu>
             </div>
         </nav>
 
-        <section>
+        <section class="home">
             <picture class="profile">
                 <img id="profile" src="assets/img/profile.png" alt="Foto de perfil">
             </picture>
@@ -58,11 +58,51 @@
         </section>
 
         <main>
-            <h4>Sobre Mim</h4>
-            <p class="p-about">
-                Desenvolvedor front-end apaixonado por Tecnologia,
-                com expertise sólida em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Atualmente, estou no 2º semestre do curso de Análise e Desenvolvimento de Sistemas, o que acrescenta uma base teórica sólida ao meu conjunto de habilidades práticas.
-            </p>
+            <section class="about" id="about">
+                <h4>Sobre Mim</h4>
+                <article>
+                    <p>
+                        Desenvolvedor front-end apaixonado por Tecnologia,
+                        com expertise sólida em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Atualmente, estou no 2º semestre do curso de Análise e Desenvolvimento de Sistemas, o que acrescenta uma base teórica sólida ao meu conjunto de habilidades práticas.
+                    </p>
+                </article>
+            </section>
+            <section class="project" id="project">
+                <h4>Projetos</h4>
+                <article>
+                    <h5>Curiosidades de Tecnologia</h5>
+
+                    <p>
+                        Este projeto é um site que conta a história do mascote do Android, desenvolvido com HTML e CSS. Ele apresenta uma lista com marcadores personalizados, links externos identificados com emojis, e incorpora iframes para vídeos do YouTube. O design segue uma paleta de cores degradê e usa tags semânticas para melhorar a acessibilidade e SEO. O site é totalmente responsivo, adaptando-se a diferentes tamanhos de tela.
+                    </p>
+
+                    <picture>
+                        <img src="assets/img/projeto-android.png" alt="Imagem do projeto">
+                    </picture>
+                </article>
+                <article>
+                    <h5>Cordel Moderno</h5>
+
+                    <p>
+                        Este projeto foi desenvolvido como um desafio do Curso em Vídeo, utilizando HTML e CSS. O efeito parallax foi aplicado às imagens de fundo e a fonte adaptou-se dinamicamente ao tamanho da tela. O resultado foi um site transformado em um 'belo cordel', um estilo literário brasileiro.
+                    </p>
+                    
+                    <picture>
+                        <img src="assets/img/projeto-cordel.png" alt="Imagem do projeto">
+                    </picture>
+                </article>
+                <article>
+                    <h5>Tela de Login</h5>
+
+                    <p>
+                        Este projeto envolve a criação de uma tela de login com HTML e CSS, que inclui um formulário para inserção de email e senha. Se o usuário inserir dados incorretos, um pop-up de alerta será exibido. A tela de login é responsiva, utilizando media queries para adaptação a diferentes tamanhos de tela. Durante o desenvolvimento, foi possível aprofundar o conhecimento em HTML e CSS, especialmente na criação de formulários interativos e na implementação de soluções responsivas.
+                    </p>
+
+                    <picture>
+                        <img src="assets/img/projeto-login.png" alt="Imagem do projeto">
+                    </picture>
+                </article>
+            </section>
         </main>
 
         <footer>Copyright © 2023 <a href="https://github.com/eduardobastier" target="_blank">Eduardo Bastier </a>All Rights Reserved.</footer>
