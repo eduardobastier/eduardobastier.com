@@ -184,6 +184,7 @@ nav,
 }
 
 .profile img {
+    background-color: var(--backgroung-color);
     filter: brightness(95%);
     opacity: 95%;
     border: solid 4px var(--secondary-color);
