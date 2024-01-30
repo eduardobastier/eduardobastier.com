@@ -100,7 +100,6 @@ nav,
     right: 0;
     border-radius: 10px;
     background-color: var(--backgroung-color);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.20);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -239,7 +238,8 @@ h5 {
 }
 
 article {
-    border: 2px solid var(--tertiary-color);
+    background-color: var(--backgroung-color);
+    border: 1px solid rgb(26, 26, 26);
     border-radius: 20px;
     margin-bottom: 3rem;
     padding: 1.5rem;
@@ -248,7 +248,7 @@ article {
 }
 
 article:hover {
-    border: 2px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 }
 
 article img {
@@ -264,26 +264,31 @@ article img {
 }
 
 button {
-    background-color: var(--tertiary-color);
+    background-color: var(--backgroung-color);
+    color: var(--primary-color);
     padding: .8rem;
-    border: none;
-    border-radius: 20px;
+    border: 2px solid rgb(26, 26, 26);
+    border-radius: 15px;
     font-weight: 600;
     transition: all 200ms ease;
 }
 
+.button i {
+    
+}
+
 button:hover {
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
     transform: translateY(-6px);
     
 }
 
 .contact button {
-    background-color: var(--tertiary-color);
+    background-color: var(--backgroung-color);
 }
 
 .contact button:hover {
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 footer {

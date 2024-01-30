@@ -38,12 +38,12 @@
     }
 
     article:hover {
-        border: 2px solid var(--tertiary-color);
+        border: 1px solid rgb(26, 26, 26);
     }
 
     button:hover,
     .contact button:hover {
-        background-color: var(--tertiary-color);
+        background-color: var(--backgroung-color);
         transform: none;
     }
 }
