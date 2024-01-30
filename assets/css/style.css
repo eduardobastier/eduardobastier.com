@@ -9,6 +9,7 @@
     --secondary-color: #d79264;
     --secondary-color-02: #d79264a8;
     --tertiary-color: #a9a9a9;
+    --border-color: #282828;
 }
 
 * {
@@ -19,6 +20,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 18vh;
 }
 
 body {
@@ -32,7 +34,14 @@ body {
 
 .desktop-nav,
 .mobile-nav {
-    margin-bottom: 30px;
+    background-color: var(--backgroung-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    z-index: 2;
 }
 
 nav,
@@ -42,7 +51,7 @@ nav,
     align-items: center;
     font-size: 1.3rem;
     gap: 2rem;
-    height: 17vh;
+    height: 12vh;
     list-style: none;
 }
 
@@ -159,11 +168,11 @@ nav,
     display: flex;
     align-content:center;
     align-items: center;
-    
     justify-content: center;
-    margin-top: 5rem;
     gap: 3rem;
     padding: 1rem;
+    padding-top: 12vh;
+    min-height: 100vh;
 }
 
 .hello {
@@ -224,6 +233,10 @@ main p {
     font-size: 1.1rem;
 }
 
+.about h4 {
+    margin-top: 0;
+}
+
 h4 {
     color: var(--secondary-color);
     text-align: center;
@@ -239,7 +252,7 @@ h5 {
 
 article {
     background-color: var(--backgroung-color);
-    border: 1px solid rgb(26, 26, 26);
+    border: 1px solid var(--border-color);
     border-radius: 20px;
     margin-bottom: 3rem;
     padding: 1.5rem;
@@ -267,14 +280,10 @@ button {
     background-color: var(--backgroung-color);
     color: var(--primary-color);
     padding: .8rem;
-    border: 2px solid rgb(26, 26, 26);
+    border: 2px solid var(--border-color);
     border-radius: 15px;
     font-weight: 600;
     transition: all 200ms ease;
-}
-
-.button i {
-    
 }
 
 button:hover {
